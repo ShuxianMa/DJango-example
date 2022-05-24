@@ -21,8 +21,10 @@ Including another URLconf
 #from django.urls import path
 
 from django.urls import path 
-from . import views #相对路径导入
+from . import views,search #相对路径导入
  
 urlpatterns = [
-    path('', views.fun1),
+    #path('', views.fun1),
+    path('',search.search_form),
+    path('search/',search.search)
 ]

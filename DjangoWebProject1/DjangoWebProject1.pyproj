@@ -32,6 +32,9 @@
     <Compile Include="DjangoWebProject1\disco.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="DjangoWebProject1\search.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="DjangoWebProject1\views.py">
       <SubType>Code</SubType>
     </Compile>
@@ -43,6 +46,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="requirements.txt" />
+    <Content Include="templates\pic.html" />
     <Content Include="templates\index.html" />
   </ItemGroup>
   <ItemGroup>

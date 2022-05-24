@@ -1,13 +1,13 @@
-{% load static %}
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8">
-    <title>index.html</title>
+    <title>AI绘图</title>
 </head>
 <body>
-    <h1>Drawing!</h1>
-    <!--astr={{getSomeThings}} -->
-    <img src="{% static '1.png' %}" alt="灯塔" />
+    <form action="/search/" method="get">
+        <input type="text" name="draw">
+        <input type="submit" value="开始绘图">
+    </form>
 </body>
 </html>
